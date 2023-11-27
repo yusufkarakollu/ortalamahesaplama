@@ -7,17 +7,17 @@ if(sonuc<18.5){
     let sonuc2 = document.getElementById("text").innerHTML = "İdeal Kilonun Altındasın. Sonuç: " + sonuc;
     alert(`İdeal Kilonun Altındasın. Sonuç: ${sonuc}`)
 }
-else if(18.5<=sonuc<=24.9){
+else if(sonuc>=18.5 && sonuc<=24.9){
     let sonuc2 = document.getElementById("text").innerHTML = "İdeal Kilodasınız. Sonuç: " + sonuc;
     alert(`İdeal Kilodasınız. Sonuç: ${sonuc}`);
 }
 
-else if(25<=sonuc<29.9){
+else if(sonuc>=25 && sonuc<=29.9){
     let sonuc2 = document.getElementById("text").innerHTML = "İdeal Kilonun Üstündesin. Sonuç: " + sonuc;
     alert(`İdeal Kilonun Üstündesin. Sonuç: ${sonuc}`)
 }
 
-else if(30<=sonuc<39.9){
+else if(sonuc>=30 && sonuc<=39.9){
     let sonuc2 = document.getElementById("text").innerHTML = "İdeal Kilonun Çok Üstündesin. Sonuç: " + sonuc;
     alert(`İdeal Kilonun Çok Üstündesin. Sonuç: ${sonuc}`)
 }
